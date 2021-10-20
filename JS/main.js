@@ -1,11 +1,11 @@
-//      Password generator:
-// - chiedi all’utente il suo nome,
-// - poi chiedi il suo cognome,
-// - poi chiedi il suo colore preferito
-// - infine scrivi sulla pagina i dati ricevuti nel formato: nomecognomecolorepreferito21
-
+// Ask Name
 const Name = prompt('Qual è il tuo nome?');
+
+// Aks Surname
 const Surname = prompt('Qual è il tuo cognome?');
+
+// Ask Color
 const Color = prompt('Qual è il tuo colore preferito?');
 
-document.getElementById('password').innerHTML = Name + Surname + Color + '21';
+// show Result
+document.getElementById('password').innerHTML = 'Your Password is ' + Name + Surname + Color + '21';
