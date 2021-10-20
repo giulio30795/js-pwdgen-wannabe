@@ -8,4 +8,4 @@ const Name = prompt('Qual è il tuo nome?');
 const Surname = prompt('Qual è il tuo cognome?');
 const Color = prompt('Qual è il tuo colore preferito?');
 
-document.getElementById('password').innerHTML = Name + Surname + Color + '21'
+document.getElementById('password').innerHTML = Name + Surname + Color + '21';
